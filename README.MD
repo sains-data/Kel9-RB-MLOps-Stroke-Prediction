@@ -22,8 +22,8 @@ Stroke merupakan salah satu penyebab utama kematian dan kecacatan jangka panjang
 Dalam konteks skrining kesehatan, **false negative** (pasien berisiko tetapi diprediksi aman) jauh lebih berbahaya dibandingkan **false positive**.
 
 Oleh karena itu, proyek ini berfokus pada pembangunan sistem prediksi dengan **sensitivitas tinggi (high recall)**, yang lebih mengutamakan deteksi dini dibandingkan sekadar akurasi numerik, dengan menerapkan prinsip **MLOps**.
-
-Tujuan Proyek :
+---
+## Tujuan Proyek :
 -Memabangun model prediksi risiko stroke dengan fokus pada sensitivitas (recall)
 -Menerapkan prinsip MLOps untuk memastikan pipeline yang reproducible
 -Menyediakan aplikasi prediksi yang siap digunakan secara lokal
@@ -146,6 +146,7 @@ flowchart LR
     G --> H[Deployment]
     H --> I[Monitoring]
     I --> B
+
 
 
 
