@@ -142,7 +142,7 @@ flowchart LR
     G --> H[Deployment]
     H --> I[Monitoring]
     I --> B
-
+---
 ### 🚀 Cara Menjalankan Aplikasi (Streamlit – Local)
 1️⃣ Persiapan
 
@@ -182,6 +182,7 @@ Hasil prediksi ditampilkan secara visual sebagai indikator risiko
 
 Proyek ini merepresentasikan implementasi end-to-end MLOps dalam pengembangan sistem prediksi risiko stroke.
 Dengan fokus pada sensitivitas model, pengelolaan artefak yang baik, serta kesiapan deployment, sistem ini dapat digunakan sebagai alat bantu skrining dini yang andal dan reproducible.
+
 
 
 
