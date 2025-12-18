@@ -148,6 +148,7 @@ flowchart LR
     G --> H[Deployment]
     H --> I[Monitoring]
     I --> B
+```
 ---
 ### 🧩 Penjelasan Pseudo-MLOps Pipeline
 
@@ -182,6 +183,7 @@ Diagram di atas menggambarkan alur kerja **Pseudo-MLOps Pipeline** yang digunaka
 
 10. **Feedback Loop**  
     Hasil monitoring digunakan sebagai umpan balik untuk memperbarui data dan mel
+
 
 
 
