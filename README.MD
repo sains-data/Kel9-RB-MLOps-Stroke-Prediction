@@ -143,44 +143,6 @@ flowchart LR
     H --> I[Monitoring]
     I --> B
 
-🚀 Cara Menjalankan Aplikasi (Streamlit – Local)
-1️⃣ Persiapan
 
-Pastikan Python telah terpasang (disarankan Python ≥ 3.8), kemudian clone repositori:
-
-git clone https://github.com/sains-data/Kel9-RB-MLOps-Stroke-Prediction.git
-cd Kel9-RB-MLOps-Stroke-Prediction
-
-2️⃣ Instalasi Dependensi
-
-Instal seluruh dependensi yang dibutuhkan menggunakan file requirements.txt:
-
-pip install -r requirements.txt
-
-3️⃣ Menjalankan Aplikasi Streamlit
-
-Jalankan aplikasi dengan perintah berikut:
-
-python -m streamlit run app.py
-
-
-Aplikasi akan berjalan secara lokal dan dapat diakses melalui browser pada alamat:
-
-http://localhost:8501
-
-4️⃣ Alur Penggunaan Aplikasi
-
-Pengguna mengisi data pasien melalui form aplikasi
-
-Sistem melakukan preprocessing menggunakan encoder dan scaler hasil training
-
-Model memprediksi probabilitas risiko stroke
-
-Hasil prediksi ditampilkan secara visual sebagai indikator risiko
-
-📌 Kesimpulan
-
-Proyek ini merepresentasikan implementasi end-to-end MLOps dalam pengembangan sistem prediksi risiko stroke.
-Dengan fokus pada sensitivitas model, pengelolaan artefak yang baik, serta kesiapan deployment, sistem ini dapat digunakan sebagai alat bantu skrining dini yang andal dan reproducible.
 
 
