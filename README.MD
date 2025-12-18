@@ -132,6 +132,7 @@ Seluruh sistem dikemas menggunakan **Docker** untuk memastikan:
 
 ### Diagram Pseudo-MLOps Pipeline
 ```mermaid
+flowchart LR
     A[Data Source] --> B[Data Ingestion]
     B --> C[Data Validation]
     C --> D[Feature Engineering]
@@ -141,5 +142,6 @@ Seluruh sistem dikemas menggunakan **Docker** untuk memastikan:
     G --> H[Deployment]
     H --> I[Monitoring]
     I --> B
+
 
 
