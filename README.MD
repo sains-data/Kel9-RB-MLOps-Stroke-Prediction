@@ -24,9 +24,9 @@ Dalam konteks skrining kesehatan, **false negative** (pasien berisiko tetapi dip
 Oleh karena itu, proyek ini berfokus pada pembangunan sistem prediksi dengan **sensitivitas tinggi (high recall)**, yang lebih mengutamakan deteksi dini dibandingkan sekadar akurasi numerik, dengan menerapkan prinsip **MLOps**.
 ---
 ## Tujuan Proyek :
--Memabangun model prediksi risiko stroke dengan fokus pada sensitivitas (recall)
--Menerapkan prinsip MLOps untuk memastikan pipeline yang reproducible
--Menyediakan aplikasi prediksi yang siap digunakan secara lokal
+**-Memabangun model prediksi risiko stroke dengan fokus pada sensitivitas (recall)**
+**-Menerapkan prinsip MLOps untuk memastikan pipeline yang reproducible**
+**-Menyediakan aplikasi prediksi yang siap digunakan secara lokal**
 ---
 
 ## 📊 Dataset
@@ -146,6 +146,7 @@ flowchart LR
     G --> H[Deployment]
     H --> I[Monitoring]
     I --> B
+
 
 
 
