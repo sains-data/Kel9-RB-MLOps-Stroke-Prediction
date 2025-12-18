@@ -148,6 +148,41 @@ flowchart LR
     G --> H[Deployment]
     H --> I[Monitoring]
     I --> B
+---
+### 🧩 Penjelasan Pseudo-MLOps Pipeline
+
+Diagram di atas menggambarkan alur kerja **Pseudo-MLOps Pipeline** yang digunakan dalam proyek ini. Pipeline ini dirancang untuk memastikan proses pengembangan model machine learning berjalan secara **terstruktur, terulang (reproducible), dan siap untuk deployment**.
+
+1. **Data Source**  
+   Dataset stroke diperoleh dalam format terstruktur dan menjadi sumber utama dalam proses pelatihan model.
+
+2. **Data Ingestion**  
+   Data dimuat ke dalam pipeline untuk diproses lebih lanjut oleh sistem.
+
+3. **Data Validation**  
+   Dilakukan pemeriksaan kualitas data, termasuk missing value, tipe data, dan konsistensi fitur.
+
+4. **Feature Engineering**  
+   Proses transformasi data seperti encoding dan scaling untuk meningkatkan performa model.
+
+5. **Model Training**  
+   Model machine learning dilatih menggunakan data hasil preprocessing.
+
+6. **Model Evaluation**  
+   Model dievaluasi menggunakan metrik yang relevan, dengan fokus pada **sensitivitas (recall)**.
+
+7. **Model Registry**  
+   Model terbaik disimpan sebagai artefak terverifikasi untuk keperluan deployment.
+
+8. **Deployment**  
+   Model diintegrasikan ke dalam aplikasi Streamlit agar dapat digunakan oleh pengguna.
+
+9. **Monitoring**  
+   Performa model dipantau secara berkala untuk mendeteksi penurunan kinerja atau perubahan pola data.
+
+10. **Feedback Loop**  
+    Hasil monitoring digunakan sebagai umpan balik untuk memperbarui data dan mel
+
 
 
 
