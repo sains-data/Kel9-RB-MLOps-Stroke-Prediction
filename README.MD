@@ -22,7 +22,7 @@ Sehingga sistem dapat digunakan sebagai **alat bantu skrining risiko stroke** ya
 Stroke merupakan salah satu penyebab utama kematian dan kecacatan jangka panjang.  
 Dalam konteks skrining kesehatan, **false negative** (pasien berisiko tetapi diprediksi aman) jauh lebih berbahaya dibandingkan **false positive**, karena dapat menyebabkan keterlambatan penanganan medis.
 
-Oleh karena itu, proyek ini berfokus pada pembangunan sistem prediksi risiko stroke dengan **sensitivitas (recall) yang tinggi**, yang lebih mengutamakan **deteksi dini** dibandingkan sekadar akurasi numerik, dengan menerapkan prinsip **Machine Learning Operations (MLOps)**.
+Oleh karena itu, proyek ini berfokus pada pembangunan sistem prediksi risiko stroke dengan sensitivitas (recall) yang tinggi, yang lebih mengutamakan deteksi dini dibandingkan sekadar akurasi numerik, dengan menerapkan prinsip **Machine Learning Operations (MLOps).
 ---
 ## 🎯 Tujuan Proyek
 
@@ -148,6 +148,7 @@ flowchart LR
     G --> H[Deployment]
     H --> I[Monitoring]
     I --> B
+
 
 
 
